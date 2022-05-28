@@ -1,0 +1,31 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  justify-content: space-around;
+  width: 80px;
+}
+
+.center {
+  display: flex;
+}
+
+.center .submit {
+  height: 21px;
+  cursor: pointer;
+}
+
+.right {
+  display: flex;
+}
+
+.microphone {
+  margin-left: 23px;
+}
+
+.left .logo i {
+  color: red;
+}
